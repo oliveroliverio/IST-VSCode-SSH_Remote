@@ -30,7 +30,7 @@ mkdir .ssh
 9. copy public key to remote machine
 
 ```bash
-scp ~/.ssh/id_rsa.pub oliveroliverio@<ipAddress>:/home/oliveroliverio/.ssh/uploaded_key.pub
+scp ~/.ssh/id_rsa.pub oliveroliverio@<ipAddress>:/Users/oliveroliverio/.ssh/uploaded_key.pub
 
 # see if uploaded
 ls .ssh/
